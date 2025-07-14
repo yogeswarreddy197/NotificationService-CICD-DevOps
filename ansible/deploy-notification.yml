@@ -1,0 +1,15 @@
+- name: Deploy Notification Service
+  hosts: local
+  tasks:
+    - name: Stop existing container
+      docker_container:
+        name: notification-app
+        state: absent
+
+    - name: Run notification container
+      docker_container:
+        name: notification-app
+        image: notification-service:1.0
+        state: started
+        ports:
+          - "8080:8080"
