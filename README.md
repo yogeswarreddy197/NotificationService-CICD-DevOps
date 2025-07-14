@@ -86,8 +86,4 @@ python3 metrics/send_metric.py
 B.Tech CSE, VIT-AP  
 [GitHub Profile](https://github.com/yogeswarreddy197)
 
----
 
-## 🧠 Suggested Resume Bullet
-
-> Designed and implemented a complete CI/CD pipeline for a Java Spring Boot microservice using Jenkins, Maven, Docker, and Ansible, with real-time monitoring via StatsD, Graphite, and Grafana. Deployed using container orchestration and automated provisioning scripts.
